@@ -27,16 +27,5 @@ app.use('/customers', service({
 // Start the server
 app.listen(3030);
 
-console.log('Feathers Todo Sequelize service running on 127.0.0.1:3030');
-
-
-//test sequelize connection
-// sequelize
-//   .authenticate()
-//   .then(() => {
-//     console.log('Connection has been established successfully.');
-//   })
-//   .catch(err => {
-//     console.error('Unable to connect to the database:', err);
-//   });
+console.log('Feathers Customers Sequelize service running on 127.0.0.1:3030');
 
