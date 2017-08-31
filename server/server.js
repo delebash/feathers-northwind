@@ -3,7 +3,7 @@ const socketio = require('feathers-socketio');
 const service = require('feathers-sequelize');
 const models = require('./models');
 const expressServerConfig = require("./config/serverConfig");
-const expressMiddleware = require("./src/middleware")
+const expressMiddleware = require("./middleware")
 
 
 // Create a feathers instance.

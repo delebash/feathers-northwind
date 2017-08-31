@@ -3,7 +3,7 @@
   "description": "",
   "version": "0.0.0",
   "homepage": "",
-  "main": "src",
+  "main": "server",
   "keywords": [
     "feathers"
   ],
@@ -14,7 +14,7 @@
   "contributors": [],
   "bugs": {},
   "directories": {
-    "lib": "src",
+    "lib": "server/",
     "test": "test/"
   },
   "engines": {
@@ -24,7 +24,7 @@
   "scripts": {
     "test": "npm run eslint && npm run mocha",
     "eslint": "eslint src/. test/. --config .eslintrc.json",
-    "start": "node src/",
+    "start": "node server/server",
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
